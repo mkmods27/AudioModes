@@ -1,4 +1,4 @@
-# Don't modify anything after this
+# Don't modify anything after this if you modify the module will be not working
 if [ -f $INFO ]; then
   while read LINE; do
     if [ "$(echo -n $LINE | tail -c 1)" == "~" ]; then
